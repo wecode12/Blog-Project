@@ -3,7 +3,8 @@ import os
 
 class Config:
     SECRET_KEY ='123'
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://wecode:joselyne@123@localhost/blogs'
+    # SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://wecode:joselyne@123@localhost/blogs'
+    SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL")
 
     UPLOADED_PHOTOS_DEST ='app/static/photos'
     #  email configurations
