@@ -1,9 +1,6 @@
 # Blog-Project
 
 Joselyne
-#### 14th-September-2018
-
-#### By **Cherucole**
 
 ## Description
 
