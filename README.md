@@ -42,7 +42,7 @@ Build & Deployment
 
 ##Built With
 
-- Built with Python 3 (3.7)
+- Built with Python 3.6
 - Flask
 - Styled using Bootstrap
 - CSS
