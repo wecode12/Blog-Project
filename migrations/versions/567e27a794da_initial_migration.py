@@ -1,8 +1,8 @@
-"""removed roles table
+"""Initial Migration
 
-Revision ID: afd4577e50a6
+Revision ID: 567e27a794da
 Revises: 
-Create Date: 2018-09-16 19:46:37.050950
+Create Date: 2019-09-30 17:00:46.588038
 
 """
 from alembic import op
@@ -10,7 +10,7 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = 'afd4577e50a6'
+revision = '567e27a794da'
 down_revision = None
 branch_labels = None
 depends_on = None

@@ -1,9 +1,9 @@
-#added after changing folder structure
+
 import os
 
 class Config:
-    SECRET_KEY = os.environ.get('SECRET_KEY')
-    # SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://wecode:joselyne@123@localhost/blog'
+    SECRET_KEY ='123'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://wecode:joselyne@123@localhost/blogs'
 
     UPLOADED_PHOTOS_DEST ='app/static/photos'
     #  email configurations
@@ -33,7 +33,7 @@ class ProdConfig(Config):
 
 
 class DevConfig(Config):
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://wecode:joselyne@123@localhost/blog'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://wecode:joselyne@123@localhost/blogs'
 
     DEBUG= True
 
