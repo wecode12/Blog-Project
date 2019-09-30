@@ -1,8 +1,6 @@
 # Blog-Project
 
-![Cherucole's-Blog](https://www.lifesafar.com/wp-content/uploads/2018/01/blog.jpg)
-
-
+Joselyne
 #### 14th-September-2018
 
 #### By **Cherucole**
@@ -10,7 +8,7 @@
 ## Description
 
 A way for users to view blogs and writers to submit blogs depending on the category they like.
-The app is live here [Cherucole's Blog](https://cherucole-blog.herokuapp.com/).
+T
 
 ## Getting Started
 
