@@ -5,7 +5,7 @@ Joselyne
 ## Description
 
 A way for users to view blogs and writers to submit blogs depending on the category they like.
-T
+
 
 ## Getting Started
 
