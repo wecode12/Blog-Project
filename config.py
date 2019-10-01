@@ -1,8 +1,8 @@
-
+#added after changing folder structure
 import os
 
 class Config:
-    SECRET_KEY = os.environ.get('1234')
+    SECRET_KEY = os.environ.get('SECRET_KEY')
     SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://wecode:joselyne@123@localhost/blogs'
 
     UPLOADED_PHOTOS_DEST ='app/static/photos'
@@ -22,7 +22,7 @@ class Config:
 
 
 class TestConfig(Config):
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://wecode:joselyne@123e@localhost/blog_test'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://wecode:joselyne@123@localhost/blog_test'
 
 
 class ProdConfig(Config):
